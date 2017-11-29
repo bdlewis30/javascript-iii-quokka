@@ -1,6 +1,10 @@
 var roundScores = [36, 39, 44, 49, 45, 48, 52]
 
 //Use reduce to get a sum
+var sum = roundScores.reduce(function (prev, item, index, array){
+    return prev + item;
+})
+sum
 
 //Use the sum to get an average
 

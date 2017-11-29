@@ -13,12 +13,24 @@ var {first_name} = employee
 ##### can get multiple variables
 
 ```
+var person = {
+    first_name: 'Dan',
+    last_name: 'Peterson',
+    age: 50,
+    city: 'Portland',
+    state: 'OR',
+    favColor: 'Red',
+    favFood: 'Pizza'
+}
+
 var { first_name
     , last_name
     , age
     , city
     , state
     } = person;
+
+// This says, get the variables on the left from the object up top called person.
 ```
 
 ##### variable names must match
